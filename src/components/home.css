@@ -1,0 +1,166 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #eeead6, #e9e2ba);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.main-section {
+  text-align: center;
+}
+
+.logo-img {
+  height: 170px;
+  width: 380px;
+  margin-left: 70px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text-1 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.company-info li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.awards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-1 {
+  height: 580px;
+  width: 300px;
+  margin-right: 60px;
+}
+
+.img-2 {
+  height: 530px;
+  width: 830px;
+  margin-left: 160px;
+}
+
+.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 500;
+  margin-right: 100px;
+}
+
+.description span {
+  font-weight: 600;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+.products-section {
+  text-align: center;
+}
+
+.img-3 {
+  height: 420px;
+  width: 860px;
+}
+
+hr {
+  color: red;
+  border: 1px solid red;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  padding: 15px;
+}
+
+.footer-section div {
+  display: flex;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.footer-section div p {
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* For Mobile Screen */
+
+@media screen and (max-width: 577px) {
+  .bg-container {
+    width: fit-content;
+    background-size: cover;
+    margin: 0;
+  }
+
+  .logo-img {
+    width: 240px;
+    height: 140px;
+    margin: 0;
+  }
+
+  .company-info h3 {
+    text-align: center;
+  }
+
+  .awards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 520px;
+    margin: 0;
+  }
+
+  .img-1 {
+    height: 350px;
+    width: 200px;
+  }
+  .img-2 {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+  }
+
+  .img-3 {
+    height: 170px;
+    width: 280px;
+  }
+
+  .description {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .products-section {
+    width: fit-content;
+  }
+
+  .footer-section {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
